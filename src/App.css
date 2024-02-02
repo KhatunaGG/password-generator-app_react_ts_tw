@@ -1,0 +1,36 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #08070B;
+}
+
+.App {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #A4FFAF;
+}
+
+
+
+@media screen and (width > 375px) {
+    .App {
+       max-width: 540px;
+       height: 100vh;
+    }
+}
